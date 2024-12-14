@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    padding-bottom: 2rem;
+    gap: var(--gap-m);
+    padding-bottom: var(--padding-xl);
 }
 
 
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 24px;
+    padding-top: var(--padding-l);
 }
 
 .label-busca{
@@ -21,7 +21,7 @@
     align-items: center;
     border: 1px solid var(--cor-cinza);
     border-radius: 2rem;
-    padding: 8px 16px;
+    padding: var(--padding-s) var(--padding-m);
 }
 
 
@@ -52,7 +52,7 @@
     border: none;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: var(--gap-s);
     cursor: pointer;
 }
 
@@ -83,7 +83,7 @@
     text-decoration: none;
     color: var(--cor-cinza);
     position: relative;
-    padding-bottom: 0.25rem;
+    padding-bottom: var(--padding-xs);
     
     &:after{
         content: "";
