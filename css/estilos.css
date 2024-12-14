@@ -1,0 +1,31 @@
+
+@import url("/css/cabecalho.css");
+@import url("/css/destaque.css");
+
+:root{
+    --cor-cinza: #444444;
+    --cor-cinza-medio: #B9B9B9;
+    --neutro-branco: #FFFFFF;
+    --primaria-coral: #EE6451;
+    --primaria-ocre:#C13724;
+    --secundaria-bege:#FFF5EB;
+    --secundaria-bege2:#F5E6D6;
+    --tercaria-verde1:#CBDA74;
+    --tercaria-verde2:#A2B72B;
+    --tercaria-verde3:#EFF2E1;
+}
+
+
+
+body{
+    font-family: 'poppins', sans-serif;
+    color: var(--cor-cinza);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 1200px;
+}
