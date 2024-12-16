@@ -2,6 +2,7 @@
 @import url("/css/cabecalho.css");
 @import url("/css/destaque.css");
 @import url("/css/servicos.css");
+@import url("/css/planos.css");
 
 :root{
     --cor-cinza: #444444;
@@ -27,6 +28,8 @@
     --fonte-size-m: 1.25rem;
     --fonte-size-b: 1rem;
     --fonte-size-s: 0.813rem;
+
+
     --line-height: 120%;
 
     --padding-xs: 0.25rem;
@@ -52,23 +55,18 @@ h1, h2, h3, h4, h5{
     font-family: var(--font-sigmar);
     font-family: var(--line-height);    
 }
-
 h1{
     font-size: var(--font-size-xxxl);
 }
-
 h2{
     font-size: var(--font-size-xxl);
 }
-
 h3{
     font-size: var(--font-size-xl);
 }
-
 h4{
     font-size: var(--font-size-l);
 }
-
 h5{
     font-size: var(--fonte-size-xm);
 }
