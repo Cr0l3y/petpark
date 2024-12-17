@@ -24,6 +24,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--gap-xxxl);
+
+    @media (max-width: 768px){
+        gap: var(--gap-xxl);
+    
+    }
 }
 
 

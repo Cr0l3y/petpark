@@ -95,4 +95,9 @@ body{
 
 .container{
     width: 1200px;
+
+    @media (max-width: 768px){
+        width: 648px;
+    
+    }
 }

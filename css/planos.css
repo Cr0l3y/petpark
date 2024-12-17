@@ -29,6 +29,10 @@
 .planos-titulo{
     color: var(--secundaria-bege);
     font-family: var(--font-sigmar);
+
+    @media (max-width: 768px){
+        text-align: center;
+    }
 }
 
 
@@ -36,6 +40,12 @@
     display: flex;
     justify-content: space-between;
     gap: var(--gap-xl);
+
+    @media (max-width: 768px){
+        flex-direction: column;
+        align-items: center;
+    
+    }
 }
 
 
@@ -49,6 +59,11 @@
     padding: var(--padding-m);
     border-radius: 1rem;
     flex-grow: 1;
+
+    @media (max-width: 768px){
+        width: 50%;
+    
+    }
 }
 
 
