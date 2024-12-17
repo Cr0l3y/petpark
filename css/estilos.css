@@ -4,6 +4,10 @@
 @import url("/css/servicos.css");
 @import url("/css/planos.css");
 @import url("/css/ofertas.css");
+@import url("/css/parcerias.css");
+@import url("/css/newsletter.css");
+@import url("/css/rodape.css");
+
 
 :root{
     --cor-cinza: #444444;
@@ -16,6 +20,12 @@
     --tercaria-verde1:#CBDA74;
     --tercaria-verde2:#A2B72B;
     --tercaria-verde3:#EFF2E1;
+
+    
+    --pri-box-shadow: rgb(193, 55, 36, 0.4); 
+    --sec-box-shadow: rgb(162, 183, 43, 0.4);
+
+
 
     --font-sigmar: "Sigmar", sans-serif;
     --font-poppins: "Poppins", sans-serif;
